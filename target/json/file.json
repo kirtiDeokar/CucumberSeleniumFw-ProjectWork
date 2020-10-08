@@ -1,0 +1,167 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-07T12:42:49.061Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "search-functionality;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Search for product \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDef1.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search Result page is displayed",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.search_result_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-07T12:42:49.128Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User is click on the Product and check the Product Details",
+        "description": "",
+        "id": "search-functionality;user-is-click-on-the-product-and-check-the-product-details",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Search for product \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDef1.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on any product",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.user_click_on_any_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Product Description is displayed in new tab",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDef1.product_description_is_displayed_in_new_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/SearchTextBox.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.277">
+<testcase classname="Search Functionality" name="User is able to Open the browser, navigate to the URL and Search for Product" time="0.08">
+<system-out><![CDATA[Given User navigated to the home application url............................passed
+When User Search for product "Laptop".......................................passed
+Then Search Result page is displayed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Functionality" name="User is click on the Product and check the Product Details" time="0.003">
+<system-out><![CDATA[Given User navigated to the home application url............................passed
+And User Search for product "Laptop"........................................passed
+When User click on any product..............................................passed
+Then Product Description is displayed in new tab............................passed
+]]></system-out>
+</testcase>
+</testsuite>
